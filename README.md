@@ -80,3 +80,10 @@ gcloud run deploy tts-testing \
 
 > [!NOTE]
 > Ensure that the service account used by Cloud Run has the `Vertex AI User` role to call the Vertex AI TTS API.
+
+## References
+
+This project references and was inspired by the following resources:
+
+-   [Google Cloud Gemini TTS Documentation](https://docs.cloud.google.com/text-to-speech/docs/gemini-tts)
+-   [Take3Bounce Showcase](https://take3bounce.app/showcase/)
