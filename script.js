@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         langCode === 'ko-KR' ? `이 태그는 [${item.tag}] 효과를 적용합니다.` :
                         langCode === 'en-US' ? `This tag applies the [${item.tag}] effect.` :
                         langCode === 'ja-JP' ? `このタグは[${item.tag}]効果を適用します。` :
-                        langCode === 'zh-CN' ? `此标签应用 [${item.tag}] 效果。` :
                         `This tag applies the [${item.tag}] effect.`
                     }</p>
                     <div class="sample-text-area">
@@ -71,7 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 let langCode = 'ko-KR';
                 if (lang === 'en') langCode = 'en-US';
                 else if (lang === 'jp') langCode = 'ja-JP';
-                else if (lang === 'cn') langCode = 'zh-CN';
                 
                 renderCards(langCode);
             } else if (targetId === 'nav-editor') {
