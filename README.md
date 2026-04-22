@@ -4,7 +4,7 @@ A modern, interactive playground for testing Gemini Text-to-Speech (TTS) capabil
 
 ## Features
 
-- **Multi-Language Support**: Supports Korean (KO), English (EN), Japanese (JA), and Chinese (ZH) with curated tag libraries for each.
+- **Multi-Language Support**: Supports Korean (KO), English (EN), and Japanese (JA) with curated tag libraries for each.
 - **Interactive Editor**: A dedicated "Editor" tab with a premium glassmorphic UI.
 - **Autocomplete**: Type `[` in the editor to trigger a floating autocomplete dropdown for tags, showing category and description.
 - **Real-time Speed Control**: Adjust the speaking rate from 0.5x to 2.0x with a slider that updates in real-time.
